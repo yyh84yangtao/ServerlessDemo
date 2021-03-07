@@ -1,0 +1,13 @@
+org: '1251891378'
+app: express-demo-git
+stage: dev
+component: layer
+name: express-demo-git-layer
+inputs:
+  name: express-demo-git-layer
+  region: ap-guangzhou
+  src:
+    src: ../node_modules
+    targetDir: /node_modules
+  runtimes:
+    - Nodejs10.15
